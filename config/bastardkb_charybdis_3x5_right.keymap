@@ -1,0 +1,21 @@
+/ {
+  keymap {
+    compatible = "zmk,keymap";
+
+    default_layer {
+      bindings = <
+        &kp Y  &kp U  &kp I  &kp O  &kp P
+        &kp H  &kp J  &kp K  &kp L  &kp SCLN
+        &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+      >;
+    };
+
+    lower_layer {
+      bindings = <
+        &kp 6  &kp 7  &kp 8  &kp 9  &kp 0
+        &kp LGUI  &kp MINUS  &kp EQUAL  &kp BSPC  &kp GRAVE
+        &kp RALT  &kp LBKT  &kp RBKT  &kp BSLS  &kp RCTRL
+      >;
+    };
+  };
+};
